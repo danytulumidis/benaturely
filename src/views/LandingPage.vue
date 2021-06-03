@@ -1,15 +1,17 @@
 <template>
-  <h1>Landing Page</h1>
-  <Header />
+  <Navbar />
+  <Welcome />
 </template>
 
 <script>
-import Header from "./../components/Header.vue";
+import Navbar from "./../components/Navbar.vue";
+import Welcome from "./../components/Welcome.vue";
 
 export default {
   name: "LandingPage",
   components: {
-    Header
+    Navbar,
+    Welcome
   }
 }
 </script>
