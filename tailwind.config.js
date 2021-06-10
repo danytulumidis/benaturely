@@ -5,6 +5,10 @@ module.exports = {
     textColor: {
       'primary': '#6FCF97',
     },
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      'primary': '#a4e1bd',
+    }),
     extend: {},
   },
   variants: {
